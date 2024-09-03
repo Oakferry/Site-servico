@@ -1,0 +1,80 @@
+*{
+    margin: 0%;
+}
+body{
+    background-color: rgb(224, 224, 224);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* -------------------Inicio Cabeçalho---------- */
+header{
+    /* cor de fundo */
+    background-color: #2b2a2ae0;
+
+    /*margem interna*/
+    padding: 50px;
+
+    /*Texto ao centro*/
+   text-align: center; 
+}
+
+h1{
+   /*Texto ao centro*/
+   text-align: center; 
+   
+   /* Cor */
+   color: #fff; 
+
+   /* Tamanho da fonte */
+   font-size: 35px;
+}
+
+header img{
+    /* Arredondar imagem */
+    border-radius: 50%;
+    /* Criar borda */
+    border: 5px solid rgb(255, 255, 255);
+    /* Largura */
+    width: 200px;
+    height: 200px;
+    margin-top: 50px;
+}
+/* ------------------Fim cabeçalho----------------- */
+
+section{
+    margin: 40px;
+    background-color:  #fff;
+
+    /* margem sentido horário */
+    padding: 30px 10px 30px 10px;
+
+    border-radius: 5px;
+}
+
+section h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+section p{
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+section ol, ul{
+    margin-top: 10px;
+}
+/* ------------Fim main---------- */
+footer{
+    text-align: center ;
+}
+
+footer{
+    margin: 10px;
+}
+
+footer span {
+    margin: 10%;
+    padding-bottom: 30px;
+    margin-top: 10%;
+}
